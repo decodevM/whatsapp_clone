@@ -1,4 +1,9 @@
 # whatsapp_clone
+<p align="center">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="350" title="hover text">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="350" alt="accessibility text">
+</p>
+
 ![Screenshot](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png?raw=true)
 ![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png?raw=true)
 ![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png?raw=true)
