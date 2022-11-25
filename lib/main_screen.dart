@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:whatsapp_clone/const/app_color.dart';
+import 'package:whatsapp_clone/screens/calls_screen.dart';
 import 'package:whatsapp_clone/screens/chats_screen.dart';
+import 'package:whatsapp_clone/screens/settings_screen.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -38,7 +40,7 @@ class MainScreen extends StatelessWidget {
               );
             case 1:
               return const Center(
-                child: Text('Calls'),
+                child: CallsScreen(),
               );
             case 2:
               return const Center(
@@ -48,7 +50,7 @@ class MainScreen extends StatelessWidget {
               return ChatScreens();
             case 4:
               return const Center(
-                child: Text('Settings'),
+                child: SettingsScreen(),
               );
             default:
               return const Center(
