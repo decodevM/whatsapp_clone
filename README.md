@@ -1,5 +1,8 @@
 # whatsapp_clone
-![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/images/profiles/aiony-haust.jpg?raw=true)
+![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png?raw=true)
+![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png?raw=true)
+![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png?raw=true)
+![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png?raw=true)
 A new Flutter project.
 
 ## Getting Started
