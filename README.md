@@ -18,8 +18,9 @@ A new Flutter project for WhatsApp UI Clone.
 [![WhatsApp Clone Part 2](https://img.youtube.com/vi/9v0eGDPOCJo/0.jpg)](https://www.youtube.com/watch?v=9v0eGDPOCJo)
 
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=9v0eGDPOCJo" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=9v0eGDPOCJo">
+         <img src="https://img.youtube.com/vi/9v0eGDPOCJo/0.jpg" style="width:100%;">
+      </a>
+</div>
