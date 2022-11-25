@@ -1,9 +1,9 @@
 # WhatsApp Clone
 <p align="center">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="200" title="Chats">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="200" title="Settings">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="200" title="Calls">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="200" title="Calls-Missed">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="250" title="Chats">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="250" title="Settings">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="250" title="Calls">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="250" title="Calls-Missed">
 </p>
 
 <p align="center">
