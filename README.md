@@ -1,5 +1,5 @@
 # whatsapp_clone
-![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png?raw=true)
+![Screenshot](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png?raw=true)
 ![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png?raw=true)
 ![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png?raw=true)
 ![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png?raw=true)
