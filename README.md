@@ -1,18 +1,14 @@
 # whatsapp_clone
 <p align="center">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="350" title="Chats">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="350" title="Settings">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="300" title="Chats">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="300" title="Settings">
 </p>
 
 <p align="center">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="350" title="Calls">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="350" title="Calls-Missed">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="300" title="Calls">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="300" title="Calls-Missed">
 </p>
 
-![Screenshot](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png?raw=true)
-![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png?raw=true)
-![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png?raw=true)
-![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png?raw=true)
 A new Flutter project.
 
 ## Getting Started
