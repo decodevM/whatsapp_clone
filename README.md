@@ -6,17 +6,12 @@
   <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="200" title="Calls-Missed">
 </p>
 
-A new Flutter project.
+A new Flutter project for WhatsApp UI Clone.
 
-## Getting Started
+## Tutorial Part 1
+[Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+[![WhatsApp Clone Part 1](https://img.youtube.com/vi/9v0eGDPOCJo/0.jpg)](https://www.youtube.com/watch?v=9v0eGDPOCJo)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tutorial Part 2
+[Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+[![WhatsApp Clone Part 2](https://img.youtube.com/vi/9v0eGDPOCJo/0.jpg)](https://www.youtube.com/watch?v=9v0eGDPOCJo)
