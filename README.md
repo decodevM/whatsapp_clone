@@ -1,6 +1,6 @@
 # WhatsApp Clone
 ## A new Flutter project for WhatsApp UI Clone.
-<p align="center">
+<p align="left">
   <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="200" title="Chats">
   <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="200" title="Settings">
   <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="200" title="Calls">
