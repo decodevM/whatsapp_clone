@@ -1,7 +1,12 @@
 # whatsapp_clone
 <p align="center">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="350" title="hover text">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="350" alt="accessibility text">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="350" title="Chats">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="350" title="Settings">
+</p>
+
+<p align="center">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="350" title="Calls">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="350" title="Calls-Missed">
 </p>
 
 ![Screenshot](https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png?raw=true)
