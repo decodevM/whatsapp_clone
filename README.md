@@ -1,5 +1,5 @@
 # whatsapp_clone
-
+![alt text](https://github.com/decodevM/whatsapp_clone/blob/main/assets/images/profiles/aiony-haust.jpg?raw=true)
 A new Flutter project.
 
 ## Getting Started
