@@ -1,12 +1,14 @@
-# whatsapp_clone
+# WhatsApp Clone
 <p align="center">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="300" title="Chats">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="300" title="Settings">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/chats.png" width="200" title="Chats">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/settings.png" width="200" title="Settings">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="200" title="Calls">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="200" title="Calls-Missed">
 </p>
 
 <p align="center">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="300" title="Calls">
-  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="300" title="Calls-Missed">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls.png" width="200" title="Calls">
+  <img src="https://github.com/decodevM/whatsapp_clone/blob/main/assets/screenshots/calls-missed.png" width="200" title="Calls-Missed">
 </p>
 
 A new Flutter project.
