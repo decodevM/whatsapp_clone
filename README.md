@@ -9,9 +9,10 @@
 A new Flutter project for WhatsApp UI Clone.
 
 ## Tutorial Part 1
-[Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+
 [![WhatsApp Clone Part 1](https://img.youtube.com/vi/9v0eGDPOCJo/0.jpg)](https://www.youtube.com/watch?v=9v0eGDPOCJo)
 
+
 ## Tutorial Part 2
-[Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+
 [![WhatsApp Clone Part 2](https://img.youtube.com/vi/9v0eGDPOCJo/0.jpg)](https://www.youtube.com/watch?v=9v0eGDPOCJo)
