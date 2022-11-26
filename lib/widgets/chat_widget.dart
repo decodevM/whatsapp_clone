@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:whatsapp_clone/models/user_model.dart';
+import '/models/user_model.dart';
 
 class ChatWidget extends StatelessWidget {
   const ChatWidget({Key? key, required this.user}) : super(key: key);

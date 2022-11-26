@@ -1,7 +1,7 @@
 import 'package:cupertino_lists/cupertino_lists.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../models/user_call_model.dart';
+import '/models/user_call_model.dart';
 
 class CallWidget extends StatelessWidget {
   const CallWidget({Key? key, required this.user}) : super(key: key);
@@ -37,32 +37,36 @@ class CallWidget extends StatelessWidget {
       leading: Container(
         margin: const EdgeInsets.all(5),
         decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(
-                'assets/images/profiles/${user.image}',
-              ),
-              fit: BoxFit.cover,
+          image: DecorationImage(
+            image: AssetImage(
+              'assets/images/profiles/${user.image}',
             ),
-            shape: BoxShape.circle),
+            fit: BoxFit.cover,
+          ),
+          shape: BoxShape.circle,
+        ),
       ),
       leadingSize: 80,
-      subtitle: Row(children: [
-        Icon(
+      subtitle: Row(
+        children: [
+          Icon(
             user.call == Call.phone
                 ? CupertinoIcons.phone
                 : CupertinoIcons.video_camera,
-            color: CupertinoColors.inactiveGray),
-        const SizedBox(
-          width: 5,
-        ),
-        Text(
-            user.callStatus == CallStatus.missed
-                ? 'Missed'
-                : (user.callStatus == CallStatus.incoming
-                    ? 'Incoming'
-                    : 'Outgoing'),
-            style: const TextStyle(fontSize: 16)),
-      ]),
+            color: CupertinoColors.inactiveGray,
+          ),
+          const SizedBox(
+            width: 5,
+          ),
+          Text(
+              user.callStatus == CallStatus.missed
+                  ? 'Missed'
+                  : (user.callStatus == CallStatus.incoming
+                      ? 'Incoming'
+                      : 'Outgoing'),
+              style: const TextStyle(fontSize: 16)),
+        ],
+      ),
       trailing: Row(
         children: [
           Text(user.date!),

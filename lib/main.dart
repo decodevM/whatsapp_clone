@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:whatsapp_clone/main_screen.dart';
+
+import '/main_screen.dart';
 
 void main() => runApp(const MyApp());
 

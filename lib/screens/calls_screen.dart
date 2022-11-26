@@ -1,9 +1,8 @@
 import 'package:cupertino_lists/cupertino_lists.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/widgets/call_widget.dart';
 
-import '../models/user_call_model.dart';
+import '/models/user_call_model.dart';
+import '/widgets/call_widget.dart';
 
 class CallsScreen extends StatefulWidget {
   const CallsScreen({Key? key}) : super(key: key);

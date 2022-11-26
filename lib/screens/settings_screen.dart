@@ -1,7 +1,8 @@
 import 'package:cupertino_lists/cupertino_lists.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:whatsapp_clone/const/app_color.dart';
-import 'package:whatsapp_clone/widgets/custom_cupertino_list.dart';
+
+import '/const/app_color.dart';
+import '/widgets/custom_cupertino_list.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({Key? key}) : super(key: key);
