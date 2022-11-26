@@ -36,6 +36,8 @@ class MainScreen extends StatelessWidget {
             icon: Icon(CupertinoIcons.settings),
             label: 'Settings',
           ),
+          BottomNavigationBarItem(
+              icon: Icon(CupertinoIcons.video_camera), label: 'Calls Videos')
         ],
       ),
       tabBuilder: (context, index) {

@@ -44,45 +44,53 @@ class ChatScreens extends StatelessWidget {
             SliverList(
               delegate: SliverChildListDelegate(
                 [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  SafeArea(
+                    top: false,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        CupertinoButton(
-                          onPressed: () {},
-                          padding: EdgeInsets.zero,
-                          child: const Text('Broadcast Lists'),
-                        ),
-                        CupertinoButton(
-                          onPressed: () {},
-                          padding: EdgeInsets.zero,
-                          child: const Text('New Group'),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const Divider(
-                    color: CupertinoColors.separator,
-                  ),
-                  ...List.generate(
-                    users.length,
-                    (index) => Column(
-                      children: [
-                        ChatWidget(
-                          user: users[index],
-                        ),
-                        ChatWidget(
-                          user: users[users.length - index - 1],
-                        ),
-                        if (index != users.length - 1)
-                          const Divider(
-                            color: CupertinoColors.separator,
-                            indent: 100,
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              CupertinoButton(
+                                onPressed: () {},
+                                padding: EdgeInsets.zero,
+                                child: const Text('Broadcast Lists'),
+                              ),
+                              CupertinoButton(
+                                onPressed: () {},
+                                padding: EdgeInsets.zero,
+                                child: const Text('New Group'),
+                              ),
+                            ],
                           ),
+                        ),
+                        const Divider(
+                          color: CupertinoColors.separator,
+                        ),
+                        ...List.generate(
+                          users.length,
+                          (index) => Column(
+                            children: [
+                              ChatWidget(
+                                user: users[index],
+                              ),
+                              ChatWidget(
+                                user: users[users.length - index - 1],
+                              ),
+                              if (index != users.length - 1)
+                                const Divider(
+                                  color: CupertinoColors.separator,
+                                  indent: 100,
+                                ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
-                  )
+                  ),
                 ],
               ),
             )
