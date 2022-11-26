@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+
 import '/models/user_model.dart';
 
 class ChatWidget extends StatelessWidget {
@@ -12,8 +13,8 @@ class ChatWidget extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            height: 80,
-            width: 80,
+            height: 60,
+            width: 60,
             decoration: BoxDecoration(
               color: CupertinoColors.inactiveGray,
               shape: BoxShape.circle,
@@ -28,13 +29,11 @@ class ChatWidget extends StatelessWidget {
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 20),
+              padding: const EdgeInsets.symmetric(vertical: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(user.name!,
-                      style: const TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 20)),
+                  Text(user.name!, style: const TextStyle(fontSize: 18)),
                   const SizedBox(
                     height: 5,
                   ),
@@ -79,7 +78,7 @@ class ChatWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 20),
+            padding: const EdgeInsets.symmetric(vertical: 10),
             child: Column(
               children: [
                 Text(

@@ -1,3 +1,4 @@
+import 'package:cupertino_lists/cupertino_lists.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -11,6 +12,7 @@ class ChatScreens extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoTabView(
       builder: (context) => CupertinoPageScaffold(
+        backgroundColor: CupertinoColors.systemGroupedBackground,
         child: CustomScrollView(
           slivers: [
             CupertinoSliverNavigationBar(
@@ -46,49 +48,55 @@ class ChatScreens extends StatelessWidget {
                 [
                   SafeArea(
                     top: false,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              CupertinoButton(
-                                onPressed: () {},
-                                padding: EdgeInsets.zero,
-                                child: const Text('Broadcast Lists'),
-                              ),
-                              CupertinoButton(
-                                onPressed: () {},
-                                padding: EdgeInsets.zero,
-                                child: const Text('New Group'),
-                              ),
-                            ],
-                          ),
-                        ),
-                        const Divider(
-                          color: CupertinoColors.separator,
-                        ),
-                        ...List.generate(
-                          users.length,
-                          (index) => Column(
-                            children: [
-                              ChatWidget(
-                                user: users[index],
-                              ),
-                              ChatWidget(
-                                user: users[users.length - index - 1],
-                              ),
-                              if (index != users.length - 1)
-                                const Divider(
-                                  color: CupertinoColors.separator,
-                                  indent: 100,
+                    child: Container(
+                      color: CupertinoColors.white,
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                CupertinoButton(
+                                  onPressed: () {},
+                                  padding: EdgeInsets.zero,
+                                  child: const Text('Broadcast Lists'),
                                 ),
+                                CupertinoButton(
+                                  onPressed: () {},
+                                  padding: EdgeInsets.zero,
+                                  child: const Text('New Group'),
+                                ),
+                              ],
+                            ),
+                          ),
+                          CupertinoListSection(
+                            // backgroundColor: CupertinoColors.white,
+                            topMargin: 0,
+                            children: [
+                              ...List.generate(
+                                users.length,
+                                (index) => Column(
+                                  children: [
+                                    ChatWidget(
+                                      user: users[index],
+                                    ),
+                                    const Divider(
+                                      color: CupertinoColors.separator,
+                                      indent: 60,
+                                      height: 5,
+                                    ),
+                                    ChatWidget(
+                                      user: users[users.length - index - 1],
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ],

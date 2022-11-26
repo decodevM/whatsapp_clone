@@ -12,23 +12,28 @@ class CallWidget extends StatelessWidget {
       title: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text(
-            user.name!,
-            style: TextStyle(
-              color: user.callStatus == CallStatus.missed
-                  ? CupertinoColors.systemRed
-                  : null,
+          FittedBox(
+            child: Text(
+              user.name!,
+              style: TextStyle(
+                color: user.callStatus == CallStatus.missed
+                    ? CupertinoColors.systemRed
+                    : null,
+              ),
+              overflow: TextOverflow.ellipsis,
             ),
           ),
           if (user.missed != 1)
             Padding(
-              padding: const EdgeInsets.only(left: 10),
-              child: Text(
-                '(${user.missed})',
-                style: TextStyle(
-                  color: user.callStatus == CallStatus.missed
-                      ? CupertinoColors.systemRed
-                      : null,
+              padding: const EdgeInsets.only(left: 5),
+              child: FittedBox(
+                child: Text(
+                  '(${user.missed})',
+                  style: TextStyle(
+                      color: user.callStatus == CallStatus.missed
+                          ? CupertinoColors.systemRed
+                          : null,
+                      fontSize: 14),
                 ),
               ),
             )
@@ -46,7 +51,7 @@ class CallWidget extends StatelessWidget {
           shape: BoxShape.circle,
         ),
       ),
-      leadingSize: 80,
+      leadingSize: 70,
       subtitle: Row(
         children: [
           Icon(
@@ -69,7 +74,11 @@ class CallWidget extends StatelessWidget {
       ),
       trailing: Row(
         children: [
-          Text(user.date!),
+          FittedBox(
+            child: Text(
+              user.date!,
+            ),
+          ),
           CupertinoButton(
               padding: EdgeInsets.zero,
               onPressed: () {},
